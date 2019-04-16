@@ -1,0 +1,16 @@
+{
+    "name": "cypheralmasy/autosmart",
+    "description": "Interface that autosmart classes must implement",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Matthew Weir",
+            "email": "mweir@cypheralmasy.com"
+        }
+    ],
+	"autoload": {
+		"classmap": [ "src/" ]
+	},
+    "require": {}
+}

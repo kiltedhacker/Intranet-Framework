@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>cPanel SMART setup</title>
+<style type="text/css">
+html, body {
+	width: 100%;
+}
+
+fieldset, legend {
+	border: 1px black solid;
+}
+
+fieldset {
+	margin: 10px;
+	width: 50%;
+}
+
+legend {
+	border-radius: 4px;
+	padding: 4px;
+}
+</style>
+</head>
+<body>
+	<form action="setup.php" method="post">
+		<fieldset><legend>cPanel Details</legend>
+			<input type="text" name="server" placeholder="Server IP or Hostname"><br>
+			<input type="text" name="username" placeholder="Username"><br>
+			<input type="password" name="password" placeholder="Password"><br>
+		</fieldset>
+		<fieldset><legend>Site Details</legend>
+			<input type="text" name="siteId" placeholder="Site ID"><br>
+			<input type="text" name="domain" placeholder="Domain"><br>
+		</fieldset>
+		<button type="submit">Submit</button>
+	</form>
+</body>
+</html>	

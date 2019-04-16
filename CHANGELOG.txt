@@ -1,0 +1,59 @@
+/*************************************************************************
+* CHANGELOG
+*
+* --Version 4.0--
+* --Last version developed by Topher Tebow--
+* Cleaned up code base
+* Converted from Ink back to Bootstrap to make development simpler for other collaborators
+* Redesigned interface to be easier to navigate
+* Added department-specific landing pages
+* Removed Oracle pending the creation of an intranet with an incorporated knowledge base
+* Integrated Weyland SSO
+* Began preparation to move pages to the database
+* Moved Research Team tools to another application
+*
+* --Version 3.0--
+* Complete rewrite of the Portal interface
+* Made Portal more modular, adding elements as plugins
+* Switched from Bootstrap to Ink
+* Added database for login functionality
+* Added admin area to add and edit Oracle articles, and menu links
+* Removed version number from all files other than CHANGELOG.txt
+*
+* --Version 2.4--
+* Finalized page names
+* Fixed problem with scrolling
+*
+* --Version 2.3--
+* Reworked pages so they are individual pages, rather than slides on a carousel, to eliminate bug in AJAX function
+* Moved version number to config.php
+*
+* --Version 2.2--
+* Added Ajax to prevent pages from resetting when PHP functions are run
+*
+* --Version 2.1--
+* The needs of the many outweighed the needs of the few
+* Created a new dashboard to incorporate SECCON Tools, Reporting, Sales, CRM, and Paycom
+*
+* --Version 1.2.4--
+* Updated IP Ranges
+* Cleaned up code
+*
+* --Version 1.2.3--
+* Added sitewide alert function for notifications
+*
+* --Version 1.2.2--
+* Removed Login Authentication, it's silly anyway.
+* Made passgen and domain digg includes to be worked on individually.
+*
+* --Version 1.2.1--
+* Made the site modular for easier simultaneous updates
+* Updated layout of the UI
+*
+* --Version 1.2--
+* Updated HTML to be HTML5 compliant
+* Updated layout and look of UI
+* Removed XSS Test (by commenting it out in case we find a way around the firewall issue in the future)
+* Added version display on page
+* Added popup to let enduser know Domain Lookup is running
+*************************************************************************/

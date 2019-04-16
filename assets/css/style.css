@@ -1,0 +1,188 @@
+/*** GENERAL ***/
+
+h1 {
+  color: #C32328;
+}
+
+body {
+  background: #363636;
+}
+
+#footer {
+  width: 98%;
+  margin: 0 auto 10px auto;
+  background: #dddddd;
+  border: 1px solid #C32328;
+  border-radius: 0px;
+}
+
+#content {
+  width: 98%;
+  margin: 0 auto 0 auto;
+  padding-top: 50px;
+}
+
+a {
+  color: #C32328;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #83D2E5;
+  text-decoration: none;
+}
+
+pre {
+  font-size: 12px;
+}
+
+/*** COMMON CLASSES ****/
+.color {
+  color: #C32328;
+}
+
+.center {
+  text-align: center
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.tinyfont {
+  font-size: 13px !important;
+}
+
+.disable {
+  pointer-events: none;
+}
+
+.square {
+  border-radius: 0px;
+}
+
+/*** NOSTROMO COLOR CLASSES ***/
+.Alert{ color: #D9534F;}
+.Watch{ color: #F0AD4E;}
+.Monitor{ color: #5BC0DE;}
+.Archive{ color: #777777;}
+
+/*** PANELS ***/
+.panel-default {border-radius: 0px; border: 1px solid #C32328;}
+.panel-default .panel-heading {border-radius: 0px; background: #C32328; color: #fff;}
+
+/*** PANEL LINKS ***/
+.panel-info a {color: #5BC0DE !important;}
+.panel-info a:hover {text-decoration: none !important; font-weight: bold;}
+
+.panel-warning a {color: #F0AD4E !important;}
+.panel-warning a:hover {text-decoration: none !important; font-weight: bold;}
+
+.panel-danger a {color: #D9534F !important;}
+.panel-danger a:hover {text-decoration: none !important; font-weight: bold;}
+
+.panel-default a {color: #777777 !important;}
+.panel-default a:hover {text-decoration: none !important; font-weight: bold; border: 1px solid #83D2E5;}
+a:hover .panel-default .panel-heading {background: #83D2E5}
+
+/*** MENU ***/
+.navbar, .navbar-inverse {
+  border-radius: 0;
+  background: #000;
+}
+
+.nav-brand {
+  padding-top: 15px;
+}
+
+#sidebar-wrapper {
+  margin-top: 50px!important;
+}
+
+.logo_name {
+  max-height: 20px;
+}
+
+/*** Buttons ***/
+.btn {
+  border-radius: 0px;
+}
+
+.btn-primary {
+  background: #C32328;
+  border: 1px solid #C32328;
+}
+
+.btn-primary:hover {
+  background: #aa0000;
+  border: 1px solid #aa0000;
+}
+
+.btn-primary:hover:disabled {
+  background: #e55959;
+  border: 1px solid #e55959;
+}
+
+a.btn.btn-primary {
+  color: #fff!important;
+}
+
+.btn-black {
+  color: #fff;
+  background: #000;
+  border: 1px solid #000;
+}
+
+.btn-black:hover {
+  color: #fff;
+  background: #C32328;
+  border: 1px solid #C32328;
+  border-radius: 0px;
+}
+
+.btn-black:hover:disabled {
+  background: #e55959;
+  border: 1px solid #e55959;
+}
+
+.nav-pills > li.active > a{
+  color: #fff!important;
+  background: #C32328;
+  border: 1px solid #C32328;
+}
+
+.nav-pills > li.active > a:hover {
+  background: #C32328;
+}
+
+a:focus, .nav-pills > li.active > a {
+  background: #C32328!important;
+}
+
+/*** Forms ***/
+.forms {
+  border: 1px solid #C32328;
+  margin: 0 0 15px 0;
+}
+
+.form-control {
+  border-radius: 0px;
+}
+
+/*** SEARCH ****/
+#search {
+  width: 100%;
+}
+
+.stylish-input-group .input-group-addon{
+    background: white !important;
+}
+.stylish-input-group .form-control{
+	border-right:0;
+	box-shadow:0 0 0;
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
